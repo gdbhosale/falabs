@@ -1,27 +1,35 @@
-# Laravel PHP Framework
+# Laravel + jQuery + Bootstrap + Font Awesome
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+This library is latest compilation of best UI libraries with Laravel Backend.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+Components:
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+Laravel (5.2.29) from http://laravel.com
 
-## Official Documentation
+jQuery (2.1.4) from http://jquery.com/download
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Bootstrap (3.3.6) from http://getbootstrap.com
 
-## Contributing
+Font Awesome (4.5.0) from http://fortawesome.github.io/Font-Awesome/icons
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+This library is also customed with Template Pattern easy to start any new project.
 
-## Security Vulnerabilities
+Commands used:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+```
+# create Laravel Project
+composer create-project --prefer-dist laravel/laravel falabs
 
-## License
+# Create Authentication
+php artisan make:auth
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+# Generate the databases for auth
+php artisan migrate
+
+# Check laravel version
+php artisan --version
+
+```
+
+Note:
+- Database file saved in db folder 
